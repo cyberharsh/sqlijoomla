@@ -4,4 +4,4 @@ services:
    image: vaday/joomlasql
    command: /bin/bash -c "service apache2 start; service mysql start; tail -f /dev/null"
    ports:
-    - "80:8081"
+    - "8081:80"
